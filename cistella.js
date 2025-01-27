@@ -72,6 +72,8 @@ function iniciarAplicacio() {
 
     console.log("🎄 Benvingut a l'aplicació de la Cistella de Nadal! 🎄");
 
+    mostraAjuda();
+
     do {
         ordre = readlineSync.question('🎄> ').trim().toLowerCase();
 
