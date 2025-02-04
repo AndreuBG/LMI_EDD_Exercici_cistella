@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: lightblue;
 }
 table {
     width: 100%;
@@ -9,6 +10,7 @@ table {
 }
 table, th, td {
     border: 1px solid black;
+    background-color: white;
 }
 th, td {
     padding: 10px;
